@@ -1,38 +1,72 @@
-.App {
+body {
   text-align: center;
+  font-family: 'Shadows Into Light', cursive;
+  margin-top: 2em;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.RulesComponent {
   display: flex;
   flex-direction: column;
+  padding: 0;
+  margin: 0;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.RulesComponent>div {
+  text-align: center;
+  background-color: rgb(245, 245, 10, .7);
+  padding: .5rem;
+  margin: 2rem 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h1 {
+  font-size: 3rem;
+  margin: 0;
+  margin-top: 1rem;
+
+}
+
+.rules--list {
+  font-size: 2rem;
+  font-weight: 500;
+  margin: .5rem;
+}
+
+.logIn--button {
+  background: rgba(255, 0, 251, 0.681);
+  padding: 1em;
+  box-shadow: 1px 1px 1px #000;
+  border-radius: 25px 0 0 25px;
+}
+
+.room--button {
+  background: rgba(46, 255, 94, 0.5);
+  padding: 1em;
+  box-shadow: 1px 1px 1px #000;
+  border-radius: 0px 25px 25px  0px;
+  
+}
+
+.rules--button--div {
+  padding: 1rem;
+}
+
+.mainAppComponent {
+    background-image: 
+    linear-gradient(
+      90deg, transparent 0%, transparent 10%, 
+      #EA858A 10%, #EA858A calc(10% + 3px), 
+      transparent calc(10% + 3px), transparent 100%
+    ), 
+    linear-gradient(
+      180deg, white 10%, transparent 10%
+    ),
+    repeating-linear-gradient(
+      180deg, #91C1E1 0px, #91C1E1 2px,
+      transparent 2px, transparent 38px
+    ), 
+    linear-gradient(white,white);
+  height: 100vh;
+  padding: 1rem;
+  margin: 0;
 }
