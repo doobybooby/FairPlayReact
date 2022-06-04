@@ -1,10 +1,12 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 
 function Rooms() {
+  // const [room1, room2, room3, room4, room5];
+
+
+
   return (
     <div>
-      <Link to='/'>HOME</Link>
       <h2> JOIN A ROOM! </h2>
 
       <div>

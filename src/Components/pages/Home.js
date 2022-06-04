@@ -14,7 +14,7 @@ function Home() {
             </form>
           </div>
       <div className='RulesComponent'>
-        <div >
+        <div className='StickyNote'>
           <h1>Rules</h1>
           <ol>
             <li className='rules--list'>
@@ -26,17 +26,10 @@ function Home() {
             <li className='rules--list'>
               Play When Its your turn
             </li>
-            <li className='rules--list'>
-              Log-in & Get Reward
-            </li>
           </ol>
           <div className='rules--button--div'>
-            <button>
-              <Link to='./rooms'>Rooms</Link>
-            </button>
-            <button>
-              <Link to='./login'>Login</Link>
-            </button>
+              <Link to='./rooms' className='link-button' id='button-rooms'>Rooms</Link>
+              <Link to='./login'className='link-button' id='button-login'>Login</Link>
           </div>
         </div>
       </div>
