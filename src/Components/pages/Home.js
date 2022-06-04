@@ -9,7 +9,7 @@ function Home() {
 
         <RoomSearchBar />
         <div className='RulesComponent'>
-          <div className='StickyNote'>
+          <div className='StickyNote' id='home--sticky'>
             <h1>Rules</h1>
             <ol>
               <li className='rules--list'>

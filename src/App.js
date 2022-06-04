@@ -5,6 +5,7 @@ import Rooms from './Components/pages/Rooms';
 import LogIn from './Components/pages/LogIn';
 import SingUp from './Components/pages/SingUp';
 import Navbar from './Components/Navbar';
+import RoomSearchBar from './Components/RoomSearchBar';
 
 function App() {
   return (
