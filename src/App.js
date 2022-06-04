@@ -5,12 +5,13 @@ import Rooms from './Components/pages/Rooms';
 import LogIn from './Components/pages/LogIn';
 import SingUp from './Components/pages/SingUp';
 import Navbar from './Components/Navbar';
+import RoomSearchBar from './Components/RoomSearchBar';
 
 function App() {
   return (
     <div className='mainAppComponent'>
       <h1>Play Fair With Fair Play</h1>
-      <Navbar />
+      {/* <Navbar /> */}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/rooms" element={<Rooms />} />

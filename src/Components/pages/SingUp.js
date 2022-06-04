@@ -28,7 +28,24 @@ function SingUp() {
           <p>Already have an account?
             <Link to='/login'>Log In</Link>
           </p>
+          <p>Or go back, &nbsp;
+            <Link to='/'>HOME</Link>
+          </p>
         </div>
+      </div>
+      <div className='StickyNote'>
+        <h1>Rules</h1>
+        <ol>
+          <li className='rules--list'>
+            Create/Join a Rooom
+          </li>
+          <li className='rules--list'>
+            "Call Next"
+          </li>
+          <li className='rules--list'>
+            Play When Its your turn
+          </li>
+        </ol>
       </div>
     </div>
   )
